@@ -1,3 +1,18 @@
+## CodeEnter_DeepLabv3FineTuning
+
+### How to use
+
+Train.ipynb 파일을 코랩에서 열고 실행
+
+- 목차에서 Make folder에 원하는 class번호로 수정 후 순서대로 실행
+
+binary : main.py
+binary augmentation : sep_main.py
+
+Segmentation IoU score 구현됨
+
+
+
 ## Transfer Learning for Semantic Segmentation using PyTorch DeepLab v3
 
 This repository contains code for Fine Tuning [DeepLabV3 ResNet101](https://arxiv.org/abs/1706.05587) in PyTorch. The model is from the [torchvision module](https://pytorch.org/docs/stable/torchvision/models.html#semantic-segmentation). The tutorial can be found here: [https://towardsdatascience.com/transfer-learning-for-segmentation-using-deeplabv3-in-pytorch-f770863d6a42?sk=b403331a7b30c02bff165a93823a5524](https://towardsdatascience.com/transfer-learning-for-segmentation-using-deeplabv3-in-pytorch-f770863d6a42?sk=b403331a7b30c02bff165a93823a5524)
